@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			/* unvisited link */
+			a:link {
+				color: #57D2F7;
+			}
+
+			/* visited link */
+				a:visited {
+				color: #57D2F7;
+			}
+
+			/* mouse over link */
+				a:hover {
+				color: #F73636;
+			}
+
+			/* selected link */
+				a:active {
+				color: blue;
+			}
+			
+			body {
+				background-image: url('1504.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				font-family: Verdana;
+			}
+
+			.container {
+				width: 700px;
+				background-color: #fff;
+				border: 10px solid #000;
+				margin-left: auto;
+				margin-right: auto;
+				height: 700px;
+			}
+
+			.content {
+				width: 660px;
+				padding: 20px;
+			}
+
+			p {	
+				line-height: 1.5em;
+				font-size: 14pt;
+			}
+			
+			img {
+				float: left;
+				margin-right: 20px;
+				margin-bottom: 5px;
+			}
+
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+		
+			li {
+				float: left;
+				width: 175px;
+				
+			}
+			
+			li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			
+			li a:hover:not(.current) {
+				background-color: #111;
+			}	
+			
+			.current {
+				background-color: #838689;
+			}
+			
+			iframe{
+				float: middle;
+				margin-left: 50px;
+				margin-bottom: 0px;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+
+	<div class="container">	
+			<ul>
+			  <li><a href="home.html">Home</a></li>
+			  <li><a class="current" href="Gameplay.html">Gameplay</a></li>
+			  <li><a href="Plot.html">Plot</a></li>
+			  <li><a href="Sales.html">Sales</a></li>
+			</ul>
+		<div class="content">
+		
+			<h1>Gameplay</h1>
+			
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/WXpxWy8DJSE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+			<p>"Star Wars Jedi: Fallen Order is a brilliant single-player game" <a href="https://www.forbes.com/sites/games/2019/12/11/star-wars-jedi-fallen-order-review-jedi-souls/#168f05675f90">Forbes</a> 
+		</div>
+	</div>
+
+	</body>
+</html>
