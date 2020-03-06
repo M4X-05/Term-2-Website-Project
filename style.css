@@ -1,55 +1,136 @@
-	.content {
-		width: 660px;
-		padding: 20px;
-	}
+			/* unvisited link */
+				a:link {
+				color: #57D2F7;
+			}
 
-	p {	
-		line-height: 1.5em;
-		font-size: 14pt;
-	}
-	
-	img {
-		float: left;
-		margin-right: 20px;
-		margin-bottom: 5px;
-	}
+			/* visited link */
+				a:visited {
+				color: #57D2F7;
+			}
 
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #333;
-	}
+			/* mouse over link */
+				a:hover {
+				color: #F73636;
+			}
 
-	li {
-		float: left;
-		width: 175px;
+			/* selected link */
+				a:active {
+				color: blue;
+			}
+			
+			body {
+				background-image: url('1504.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				font-family: Verdana;
+			}
+
+			h2 {
+				color: white;
+				text-shadow: 2px 2px 4px #F73636;
+			}
+
+			.container {
+				width: 700px;
+				background-color: #blue;
+				border: 5px solid #fff;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: auto;
+				height: 700px;
+			}
+
+			.content {
+				width: 670px;
+				padding: 20px;
+			}
+
+			p {	
+				line-height: 1.5em;
+				font-size: 14pt;
+			}
+			
+			img {
+				float: right;
+				margin-left: 5px;
+				margin-bottom: 0px;
+				margin-top: 0px;
+				width: 80px;
+			}
+
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+				border-radius: 75px;
+			}
 		
-	}
-	
-	div {
-		margin-left: auto; 
-		margin-right: auto;
-		margin-top: 0px;
-		padding: 30px;
-		width: 800px;
-		border-radius: 75px;
-		background-color: rgba(350, 350, 350, 0.2);
-	}
-	
-	li a {
-		display: block;
-		color: white;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-	}
-	
-	li a:hover:not(.current) {
-		background-color: #111;
-	}	
-	
-	.current {
-		background-color: #838689;
-	}
+			li {
+				float: left;
+				margin-right: -50;
+				width: 175px;
+				
+			}
+			
+			div {
+				margin-left: auto; 
+				margin-right: auto;
+				margin-top: 0px;
+				padding: 30px;
+				width: 800px;
+				border-radius: 75px;
+				background-color: rgba(350, 350, 350, 0.2);
+			}
+			
+			li a {
+				display: block;
+				color: transparent;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			
+			li a:hover:not(.current) {
+				background-color: #111;
+			}	
+			
+			.current {
+				background-color: #838689;
+			}
+			
+			table, th, td {
+			border-bottom:	1px solid #DDDDDD;
+			text-align: 	center;
+			}
+		
+			table {
+				border-collapse: collapse;
+				width: 		650px;
+			}
+			
+			tr:nth-child(even) {
+				background-color: #DDD;
+				boarder-radius: 75px;
+			}
+			
+			tr:nth-child(odd) {
+				background-color: #EEE;
+				boarder-radius: 75px;
+			}
+			
+			td:hover {
+				background-color: #F73636;
+				color: 			  white;
+			}
+			
+			th, td {
+				padding:	10px;
+			}
+			
+			th { 
+				background-color: black;
+				color: 			 white;	
